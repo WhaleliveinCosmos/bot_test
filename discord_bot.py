@@ -8,6 +8,9 @@ from dotenv import load_dotenv
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
+if TOKEN:
+    TOKEN = TOKEN.strip()
+
 if not TOKEN:
     raise RuntimeError("DISCORD_TOKEN 환경변수가 설정되지 않았습니다! .env 또는 서버 환경변수를 확인하세요.")
 

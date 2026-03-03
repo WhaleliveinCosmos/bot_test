@@ -8,6 +8,14 @@ import uvicorn
 # ----------------------
 github_to_discord = {
     "WhaleliveinCosmos": "황준호",
+    "Ebee1205": "조은비",
+    "oon-jung": "김운정",
+    "LR429": "이령",
+    "ZakZak0112": "고예경",
+    "GGhyeong": "정지형",
+    "mla2021": "김영지",
+    "mingiraffe": "홍민기",
+    "Sulfurman03": "황종혁",
 }
 
 # ----------------------

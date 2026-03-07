@@ -5,7 +5,7 @@ import discord
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 if TOKEN:
